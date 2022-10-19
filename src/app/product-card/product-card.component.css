@@ -1,0 +1,176 @@
+.nav{
+  height: 50px;
+ }
+ .sidebar{
+  position: fixed;
+  width: 75px;
+  top:51px;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+
+}
+.icon1{
+
+
+
+
+ }
+
+.sidebar a{
+  display: block;
+  padding: 6px 12px;
+  color: #000;
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+ ul li {
+  text-align: center;
+  display: block;
+}
+
+
+.item{
+
+
+  height: 30px;
+
+}
+.container{
+  margin-bottom: -32px;
+}
+.newContainer{
+  margin-left: 75px;
+}
+.Pcart{
+
+  height: 72px;
+}
+.IItem li{
+  display: inline;
+ color: #a3a3a3;
+
+ font-size: 13px;
+}
+.IItem .price{
+  margin-left: 22px;
+}
+.IItem2 li{
+  display: inline;
+ color: #f87171;
+
+ font-size: 13px;
+ font-weight: 600;
+
+
+}
+.IItem2 .price2{
+  margin-left: 22px;
+}
+.btn2 li{
+  display: inline;
+  /* padding: 2px; */
+  font-size: 9px;
+  margin-left: 6px;
+
+}
+
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.card {
+
+
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+.card:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+
+}
+.card-3 {
+  background: ghostwhite;
+}
+
+
+
+
+.modelHeaderItem .item2{
+
+margin-top: 30px;
+  height: 30px;
+}
+
+.newContainer33{
+ padding: 10px;
+ margin: 4px;
+}
+.newContainer33 p{
+  color: #0096FF;
+  font-size: 11px;
+  /* padding: 6px; */
+  margin-top: -6px;
+  font-weight: 700;
+
+}
+.newContainer33.card-3 {
+  background: white;
+}
+.remove{
+
+
+}
+.input22{
+  border: 0;
+  outline: 0;
+  width: 40px;
+  background: transparent;
+  border-bottom: 0.1px solid gray;
+
+}
+
+.newCrad p{
+  color: aliceblue;
+  font-size: 12px;
+}
+
+
+
+ .menu-list{
+
+  height: 680px;
+}
+.Qty{
+  margin-left: 42%;
+}
+.menu-list{
+
+  height: 670px;
+}
+.minusBtn{
+  color: #F1B44C;
+  background-color: rgba(241,180,76,.18);
+}
+.plusBtn{
+  color: #34C38F;
+  background-color: rgba(52,195,143,.18);
+}
+.Trashbtn{
+  color: #F46A6A;
+  /* background-color: rgba(244,106,106,.18); */
+  margin-top: -8px;
+  margin-left: 7px;
+}
+
+

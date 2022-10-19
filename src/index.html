@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App55</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+<body>
+  <app-root></app-root>
+</body>
+
+
+<!-- <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+      const navbar = document.getElementById("navbar");
+      const sidebar = document.getElementById("sidebar");
+      const btnSidebarToggler = document.getElementById("btnSidebarToggler");
+      const navClosed = document.getElementById("navClosed");
+      const navOpen = document.getElementById("navOpen");
+
+      btnSidebarToggler.addEventListener("click", (e) => {
+          e.preventDefault();
+          sidebar.classList.toggle("show");
+          navClosed.classList.toggle("hidden");
+          navOpen.classList.toggle("hidden");
+      });
+
+      sidebar.style.top = parseInt(navbar.clientHeight) - 1 + "px";
+  });
+</script> -->
+<script>
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+
+
+
+
+
+//   let cardElement = document.querySelector(".card");
+
+// cardElement.addEventListener("click", flip);
+
+// function flip(){
+//   cardElement.classList.toggle("flipped")
+// }
+
+// function startTime() {
+//     var weekday = new Array();
+//     weekday[0] =  "Sunday";
+//     weekday[1] = "Monday";
+//     weekday[2] = "Tuesday";
+//     weekday[3] = "Wednesday";
+//     weekday[4] = "Thursday";
+//     weekday[5] = "Friday";
+//     weekday[6] = "Saturday";
+//     var month = new Array();
+//     month[0] = "January";
+//     month[1] = "February";
+//     month[2] = "March";
+//     month[3] = "April";
+//     month[4] = "May";
+//     month[5] = "June";
+//     month[6] = "July";
+//     month[7] = "August";
+//     month[8] = "September";
+//     month[9] = "October";
+//     month[10] = "November";
+//     month[11] = "December";
+//     var today = new Date();
+//     var h = today.getHours();
+//     var m = today.getMinutes();
+//     var s = today.getSeconds();
+//     var d = today.getDate();
+//     var y = today.getFullYear();
+//     var wd = weekday[today.getDay()];
+//     var mt = month[today.getMonth()];
+
+//     m = checkTime(m);
+//     s = checkTime(s);
+//                     document.getElementById('date').innerHTML =
+//     d;
+//  document.getElementById('day').innerHTML =
+//     wd;
+//  document.getElementById('month').innerHTML =
+//     mt + "/" + y;
+
+//     var t = setTimeout(startTime, 500);
+// }
+// function checkTime(i) {
+//     if (i < 10) {i = "0" + i};
+//     return i;
+// }
+
+
+  </script>
+  <script>
+    $(function() {
+      $('input[name="daterange"]').daterangepicker({
+        opens: 'right'
+      }, function(start, end, label) {
+        console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+      });
+    });
+    </script>
+
+</html>

@@ -1,0 +1,422 @@
+<div class="main">
+  <div>
+    <div class="header color">
+      <div class="flex justify-between  ml-4 ">
+        <app-sidebar></app-sidebar>
+
+        <div class="">
+          <div class=" text-white font-medium text-lg mt-4 mr-4">
+            <i>
+              <fa-icon [icon]="faBell"></fa-icon>
+            </i>
+          </div>
+
+          <!-- <button routerLink="/sidebar"
+              class="navbar-toggler border-0 py-3 lg:hidden leading-none text-xl text-white  mr-2"
+              type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentY"
+              aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
+              <svg aria-hidden="" focusable="" data-prefix="fas" class="w-5" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path fill="currentColor"
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                </path>
+              </svg>
+            </button> -->
+        </div>
+
+
+      </div>
+
+      <div class="flex justify-center">
+        <img class="w-20 h-20 rounded-full" src="assets/new.png">
+
+      </div>
+      <div class="flex justify-center ">
+        <h1 class="text-white uppercase font-medium text-xl">Md. Sakib Hasan</h1>
+      </div>
+      <div class="flex justify-center ">
+        <h1 class="text-white  font-medium text-l">sakibhasan@gmail.com</h1>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- <div class="mt-10">
+      <div class="login_form  p-10 pt-5 mx-auto flex " style="width: 100%;">
+        <div class="sec flex-1">
+          <span class="flex shadow-md mb-5 text-xs">
+            <span class="color w-28 font-bold text-center text-gray-200 p-1 px-5 rounded-l">Email</span><input class="field text-sm text-gray-600 p-2 px-3 rounded-r w-full" type="password" placeholder="">
+          </span>
+
+            <span class="flex  mb-5 text-xs">
+                <span class="color w-28 font-bold text-center text-gray-200 p-3 px-5 rounded-l">Email</span><input class="field text-sm text-gray-600 p-2 px-3 rounded-r w-full" type="text" placeholder="">
+            </span>
+            <span class="flex shadow-md mb-5 text-xs">
+                <span class="color w-28 font-bold text-center text-gray-200 p-1 px-5 rounded-l">Change Password</span><input class="field text-sm text-gray-600 p-2 px-3 rounded-r w-full" type="password" placeholder="">
+            </span>
+
+            <span class="border-2 border-blue-500 hover:bg-blue-600 hover:text-gray-100 mt-3 text-blue-700 block text-center p-2 px-4 text-sm rounded cursor-pointer font-bold">Log Out</span>
+        </div>
+    </div>
+    </div> -->
+  <div class="grid grid-cols-2 lg:grid-cols-2 gap-3 w-full p-2  pr-6 pl-6 menu-list overflow-y-auto ">
+    <a routerLink="/products">
+      <div class="bg-white py-5 rounded-md ">
+        <div class="">
+          <div class="flex justify-center items-center">
+            <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 text-indigo-500 " fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+
+              <path
+                d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+              </path>
+            </svg>
+          </div>
+          <div class="flex justify-center items-center">
+            <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Product List</h2>
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <a routerLink="/distributor">
+      <div class="bg-white py-5 rounded-md ">
+        <div class="">
+          <div class="flex justify-center items-center">
+            <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 text-pink-600 " fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+              <path
+                d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+              </path>
+            </svg>
+          </div>
+          <div class="flex justify-center items-center">
+            <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">distributor list</h2>
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <a routerLink="/attendance">
+      <div class="bg-white py-5 rounded-md ">
+        <div class="">
+          <div class="flex justify-center items-center">
+            <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-blue-300 " fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+
+              <path
+                d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+              </path>
+            </svg>
+          </div>
+          <div class="flex justify-center items-center">
+            <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">attendance log</h2>
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <a routerLink="/attendancemap">
+      <div class="bg-white py-5 rounded-md ">
+        <div class="">
+          <div class="flex justify-center items-center">
+            <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+              <path
+                d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+              </path>
+            </svg>
+          </div>
+          <div class="flex justify-center items-center">
+            <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Attendance</h2>
+
+          </div>
+
+        </div>
+      </div>
+    </a>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="bg-white py-5 rounded-md ">
+      <div class="">
+        <div class="flex justify-center items-center">
+          <svg class="w-10 h-10 md:w-20 md:h-20 lg:w-36 lg:h-36 fill-orange-600 " fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+
+            <path
+              d="M308 96c6.627 0 12-5.373 12-12V44c0-6.627-5.373-12-12-12H12C5.373 32 0 37.373 0 44v44.748c0 6.627 5.373 12 12 12h85.28c27.308 0 48.261 9.958 60.97 27.252H12c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h158.757c-6.217 36.086-32.961 58.632-74.757 58.632H12c-6.627 0-12 5.373-12 12v53.012c0 3.349 1.4 6.546 3.861 8.818l165.052 152.356a12.001 12.001 0 0 0 8.139 3.182h82.562c10.924 0 16.166-13.408 8.139-20.818L116.871 319.906c76.499-2.34 131.144-53.395 138.318-127.906H308c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-58.69c-3.486-11.541-8.28-22.246-14.252-32H308z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex justify-center items-center">
+          <h2 class="text-xs  px-2 whitespace-no-wrap text-black-600  uppercase font-medium">Total Users</h2>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="w-full h-16 color border-t-2 border-white
+          fixed left-0 bottom-0
+
+          text-white text-2xl
+          ">
+    <!-- flex justify-center items-center -->
+    <!-- <div>
+          <ul>
+            <a class="p-4" routerLink="">Home</a>
+              <a class="p-4" routerLink="employee">Employee</a>
+          </ul>
+        </div> -->
+    <div class="flex justify-between mt-3">
+      <div>
+        <div>
+          <i class=" hover:bg-orange-700">
+            <fa-icon [icon]="faGraduationCap"></fa-icon>
+          </i>
+        </div>
+      </div>
+      <div>
+        <i>
+          <fa-icon [icon]="faGraduationCap"></fa-icon>
+        </i>
+      </div>
+      <div>
+        <i>
+          <fa-icon [icon]="faGraduationCap"></fa-icon>
+        </i>
+      </div>
+      <div>
+        <i>
+          <fa-icon [icon]="faGraduationCap"></fa-icon>
+        </i>
+      </div>
+    </div>
+
+  </div>
+
+</div>

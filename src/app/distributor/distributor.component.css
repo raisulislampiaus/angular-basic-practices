@@ -1,0 +1,18 @@
+.main{
+  background-color: whitesmoke;
+  height: 100vh;
+}
+.nav{
+ height: 50px;
+}
+.BoxItem{
+
+  margin-top: 3px;
+  height: 90px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.menu-list{
+
+  height: 700px;
+}

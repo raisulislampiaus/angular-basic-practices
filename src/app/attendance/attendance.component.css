@@ -1,0 +1,23 @@
+.nav{
+  height: 50px;
+ }
+button{
+  background-color:#818CF8;
+}
+button:first-of-type{
+  border-radius: .8em 0 0 .8em;
+}
+button:last-of-type{
+  border-radius: 0 .8em .8em 0;
+}
+button i{
+  color: #A0AEC0;
+  margin-right: .3em;
+  transition: all .2s ease-out;
+}
+.fixed{
+  margin-left: 10%;
+}
+
+
+
